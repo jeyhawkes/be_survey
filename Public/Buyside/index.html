@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Research Rebundling</title>
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+
+<body>
+    <header></header>
+    <div class="row">
+        <div class="col col-2"></div>
+        <div class="col col-10 col-lg-8">
+            <div class="mx-sm-auto mx-0 question active" id="q_about">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="text-center"><img class="be_logo" src="../assets/img/BestEx_Favicon.jpg">
+                            <p class="section-title"><strong>About you:</strong></p>
+                        </div>
+                        <hr>
+                        <form id="form_about" action="" method="post" name="01">
+                            <div class="card mb-5">
+                                <div class="card-body p-sm-5">
+                                    <form method="post">
+                                        <div class="mb-3"><label class="form-label" for="your_name">Name (optional):</label><input class="form-control" type="text" id="your_name" name="your_name" onfocus="this.select()" optional="true"></div>
+                                        <div class="mb-3"></div>
+                                        <div class="mb-3"><label class="form-label" for="firm-name"><span style="color: rgb(0, 0, 0);">Firm (optional):</span></label><input class="form-control" type="text" id="firm-name" name="firm-name" optional="true"></div>
+                                        <div class="mb-3"><label class="form-label" for="firm-hq">Firm headquarters location&nbsp;(optional):</label><input class="form-control" type="text" id="firm-hq" name="firm-hq" optional="true"></div>
+                                        <div class="mb-3">
+                                            <label class="form-label" for="firm-aum-band"><span style="color: rgb(0, 0, 0);">AUM band&nbsp;</span>(optional)<span style="color: rgb(0, 0, 0);">:</span></label>
+                                            <select class="form-control" name="firm-aum-band" id="firm-aum-band" optional="true">
+                                                <option value="" selected>Select band ...</option>
+                                                <option value="0-10bn" class="dropdown-item">0-10bn</option>
+                                                <option value="10-50bn" class="dropdown-item">10-50bn</option>
+                                                <option value="50bn+" class="dropdown-item">50bn+</option>
+                                              </select>
+                                        </div>
+                                        <div class="mb-3"><label class="form-label" for="firm-employee-band"><span style="color: rgb(0, 0, 0);">Employee band&nbsp;</span>(optional)<span style="color: rgb(0, 0, 0);">:</span></label>
+                                            <select class="form-control" name="firm-employee-band" id="firm-employee-band" optional="true">
+                                                <option value="" selected>Select band ...</option>
+                                                <option value="0-50" class="dropdown-item">0-50</option>
+                                                <option value="50-250" class="dropdown-item">50-250</option>
+                                                <option value="250+" class="dropdown-item">250+</option>
+                                              </select>
+                                        </div>
+                                        <div class="mb-3"><label class="form-label" for="firm-regions"><span style="color: rgb(0, 0, 0);">Firm&nbsp;operating&nbsp;in which regions&nbsp;</span>(optional)<span style="color: rgb(0, 0, 0);">:</span></label><input class="form-control"
+                                                type="text" id="firm-regions" name="firm-regions" optional="true"></div>
+                                        <div class="mb-3"><label class="form-label" for="firm-strategy"><span style="color: rgb(0, 0, 0);">Firm Strategy&nbsp;</span>(optional)<span style="color: rgb(0, 0, 0);">:</span></label><input class="form-control" type="text" id="firm-strategy"
+                                                name="firm-headquarters-location" style="color: var(--bs-emphasis-color);" optional="true"></div>
+                                        <div class="nextdiv"><button class="btn btn-primary nextbtn" type="button" onclick="GoToQuestions(this)">Next</button></div>
+                                    </form>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="mx-sm-auto mx-0 question" id="q_01">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="text-center"><img class="be_logo" src="../assets/img/BestEx_Favicon.jpg">
+                            <p class="section-title"><strong>Do you think that the UK and EU-based buy side will return research costs to clients once the FCA and the EU implement their research recommendations?&nbsp;</strong><br></p>
+                            <p></p>
+                        </div>
+                        <hr>
+                        <form id="form_01" class="px-4" action="" method="post" name="01">
+                            <div class="form-check mb-2"><input type="radio" id="a_radio_01" class="form-check-input" name="a_radio_01" value="a"><label class="form-label form-check-label" for="a_radio_01"> Yes</label></div>
+                            <div class="form-check mb-2"><input type="radio" id="b_radio_01" class="form-check-input" name="b_radio_01" value="b"><label class="form-label form-check-label" for="b_radio_01"> No</label></div>
+                            <div class="nextdiv"><button class="btn btn-primary nextbtn" id="q_01_next" type="button" onclick="next(this)" value="q_01">Next</button></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="mx-sm-auto mx-0 question" id="q_02">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="text-center"><img class="be_logo" src="../assets/img/BestEx_Favicon.jpg">
+                            <p class="section-title"><strong>You answered no. What is the main reason why?</strong></p>
+                            <p></p>
+                        </div>
+                        <hr>
+                        <form id="form_02" class="px-4" action=""><input class="form-control form_id" type="text" value="02" name="form" readonly="">
+                            <div class="form-check mb-2"><input type="radio" id="a_radio_02" class="form-check-input" name="a_radio_02" value="a"><label class="form-label form-check-label" for="a_radio_02">They need to see regulatory alignment across the UK and the EU first</label></div>
+                            <div class="form-check mb-2"><input type="radio" id="b_radio_02" class="form-check-input" name="b_radio_02" value="b"><label class="form-label form-check-label" for="b_radio_02">They have no appetite to approach clients to reintroduce these costs</label></div>
+                            <div class="form-check mb-2"><input type="radio" id="c_radio_02" class="form-check-input" name="c_radio_02" value="c"><label class="form-label form-check-label" for="c_radio_02">They are comfortable with our existing research valuation and funding structure</label></div>
+                            <div class="form-check mb-2"><input type="radio" id="d_radio_02" class="form-check-input" name="d_radio_02" value="d"><label class="form-label form-check-label" for="d_radio_02">It will depend on the detail of the FCA’s detailed rules and the implications on operational complexity and cost&nbsp;</label></div>
+                            <div class="form-check mb-2"><input type="radio" id="other_radio_02" class="form-check-input" name="other_radio_02" value="other"><label class="form-label form-check-label" for="other_radio_02"><span style="color: rgb(0, 0, 0);">Other (please specify) :</span></label></div>
+                            <div class="form-outline mb-4"><textarea class="form-control othertext" id="other_text_02" rows="4" name="other_text_02"></textarea></div>
+                            <div class="nextdiv"><button class="btn btn-primary nextbtn" id="q_02_next" type="button" onclick="next(this)" value="q_02">Next</button></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="mx-sm-auto mx-0 question" id="q_03">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="text-center"><img class="be_logo" src="../assets/img/BestEx_Favicon.jpg">
+                            <p class="section-title"><span style="color: windowtext; background-color: transparent;">What&nbsp;is&nbsp;the most significant factor&nbsp;that would&nbsp;make&nbsp;it&nbsp;possible to implement?</span></p>
+                            <p></p>
+                        </div>
+                        <hr>
+                        <form id="form_03" class="px-4" action=""><input class="form-control form_id" type="text" value="02" name="form" readonly="">
+                            <div class="form-check mb-2"><input type="radio" id="a_radio_03" class="form-check-input" name="a_radio_03" value="a"><label class="form-label form-check-label" for="a_radio_02"><span style="color: rgb(0, 0, 0);">A prolonged bull market&nbsp;</span></label></div>
+                            <div class="form-check mb-2"><input type="radio" id="b_radio_03" class="form-check-input" name="b_radio_03" value="b"><label class="form-label form-check-label" for="b_radio_03"><span style="color: rgb(0, 0, 0);">A narrative in the media and other channels that underlines how research costs are&nbsp;small compared&nbsp;to their positive effect on performance</span></label></div>
+                            <div class="form-check mb-2"><input type="radio" id="c_radio_03" class="form-check-input" name="c_radio_03" value="c"><label class="form-label form-check-label" for="c_radio_03"><span style="color: rgb(0, 0, 0);">A large global asset manager doing it first, making it easier to follow suit</span></label></div>
+                            <div class="form-check mb-2"><input type="radio" id="d_radio_03" class="form-check-input" name="d_radio_03" value="d"><label class="form-label form-check-label" for="d_radio_03"><span style="color: rgb(0, 0, 0);">Clear, specific guidelines from the FCA/EU&nbsp;Listing Act&nbsp;covering disclosure that are not open to interpretation</span></label></div>
+                            <div class="form-check mb-2"><input type="radio" id="other_radio_03" class="form-check-input" name="other_radio_03" value="other"><label class="form-label form-check-label" for="other_radio_03"><span style="color: rgb(0, 0, 0);">Other (please specify) :</span></label></div>
+                            <div class="form-outline mb-4"><textarea class="form-control othertext" id="other_text_03" rows="4" name="other_text_03"></textarea></div>
+                            <div class="nextdiv"><button class="btn btn-primary nextbtn" id="q_03_next" type="button" onclick="next(this)" value="q_03">Next</button></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="mx-sm-auto mx-0 question" id="q_04">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="text-center"><img class="be_logo" src="../assets/img/BestEx_Favicon.jpg">
+                            <p class="section-title"><strong>You answered yes. What is the main reason you think it is achievable?&nbsp;</strong></p>
+                            <p></p>
+                        </div>
+                        <hr>
+                        <form id="form_04" class="px-4" action=""><input class="form-control form_id" type="text" value="04" name="form" readonly="">
+                            <div class="form-check mb-2"><input type="radio" id="a_radio_04" class="form-check-input" name="a_radio_04" value="a"><label class="form-label form-check-label" for="a_radio_04" value="a"><span style="color: rgb(0, 0, 0);">End investors will understand that research costs are low in comparison to the impact more optionality on research payments will have on performance&nbsp;</span></label></div>
+                            <div class="form-check mb-2"><input type="radio" id="b_radio_04" class="form-check-input" name="b_radio_04" value="b"><label class="form-label form-check-label" for="b_radio_04"><span style="color: rgb(0, 0, 0);">A large asset manager will eventually go first and remove any stigma for others</span></label></div>
+                            <div class="form-check mb-2"><input type="radio" id="c_radio_04" class="form-check-input" name="c_radio_04" value="c"><label class="form-label form-check-label" for="c_radio_04"><span style="color: rgb(0, 0, 0);">End investors are not focused on research costs&nbsp;&nbsp;</span></label></div>
+                            <div class="form-check mb-2"><input type="radio" id="d_radio_04" class="form-check-input" name="d_radio_04" value="d"><label class="form-label form-check-label" for="d_radio_04"><span style="color: windowtext; background-color: transparent;">End investors are more focused on transparency, so if the correct disclosures&nbsp;exist&nbsp;they will accept the return of these charges</span></label></div>
+                            <div class="form-check mb-2"><input type="radio" id="other_radio_04" class="form-check-input" name="other_radio_04" value="other"><label class="form-label form-check-label" for="other_radio_04"><span style="color: rgb(0, 0, 0);">Other (please specify) :</span></label></div>
+                            <div class="form-outline mb-4"><textarea class="form-control othertext" id="other_text_04" rows="4" name="other_text_04"></textarea></div>
+                            <div class="nextdiv"><button class="btn btn-primary nextbtn" id="q_04_next" type="button" onclick="next(this)" value="q_04">Next</button></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="mx-sm-auto mx-0 question" id="q_05">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="text-center"><img class="be_logo" src="../assets/img/BestEx_Favicon.jpg">
+                            <p class="section-title"><strong>In a scenario where the buy side did return research costs to end investor clients, what would be the likely effect to providers’ research revenues?</strong></p>
+                            <p></p>
+                        </div>
+                        <hr>
+                        <form id="form_05" class="px-4" action=""><input class="form-control form_id" type="text" value="04" name="form" readonly="">
+                            <div class="form-check mb-2"><input type="radio" id="a_radio_05" class="form-check-input" name="a_radio_05" value="a"><label class="form-label form-check-label" for="a_radio_05" value="a"><span style="color: rgb(0, 0, 0);">Up 20%+</span></label></div>
+                            <div class="form-check mb-2"><input type="radio" id="b_radio_05" class="form-check-input" name="b_radio_05" value="b"><label class="form-label form-check-label" for="b_radio_05"><span style="color: rgb(0, 0, 0);">Up 10%+&nbsp;</span></label></div>
+                            <div class="form-check mb-2"><input type="radio" id="c_radio_05" class="form-check-input" name="c_radio_05" value="c"><label class="form-label form-check-label" for="c_radio_05"><span style="color: rgb(0, 0, 0);">Stabilise&nbsp;whereas&nbsp;it may have decreased otherwise&nbsp;</span></label></div>
+                            <div class="form-check mb-2"><input type="radio" id="d_radio_05" class="form-check-input" name="d_radio_05" value="d"><label class="form-label form-check-label" for="d_radio_05"><span style="color: rgb(0, 0, 0);">No&nbsp;likely change</span></label></div>
+                            <div class="form-check mb-2"><input type="radio" id="other_radio_05" class="form-check-input" name="other_radio_05" value="other"><label class="form-label form-check-label" for="other_radio_05"><span style="color: rgb(0, 0, 0);">Other (please specify) :</span></label></div>
+                            <div class="form-outline mb-4"><textarea class="form-control form-control othertext" id="other_text_05" rows="4" name="other_text_05"></textarea></div>
+                            <div class="nextdiv"><button class="btn btn-primary nextbtn" id="q_05_next" type="button" onclick="next(this)" value="q_05">Next</button></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="mx-sm-auto mx-0 question" id="q_06">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="text-center"><img class="be_logo" src="../assets/img/BestEx_Favicon.jpg">
+                            <p class="section-title"><strong>In a scenario where you did return research costs to end investor clients, what do you think would be the effect on research supply?&nbsp;</strong></p>
+                            <p></p>
+                        </div>
+                        <hr>
+                        <form id="form_06" class="px-4" action=""><input class="form-control form_id" type="text" value="04" name="form" readonly="">
+                            <div class="form-check mb-2"><input type="radio" id="a_radio_06" class="form-check-input" name="a_radio_06" value="a"><label class="form-label form-check-label" for="a_radio_06" value="a"><span style="color: rgb(0, 0, 0);">Research on SMEs would increase</span></label></div>
+                            <div class="form-check mb-2"><input type="radio" id="b_radio_06" class="form-check-input" name="b_radio_06" value="b"><label class="form-label form-check-label" for="b_radio_06"><span style="color: rgb(0, 0, 0);">High quality, differentiated research would increase&nbsp;</span></label></div>
+                            <div class="form-check mb-2"><input type="radio" id="c_radio_06" class="form-check-input" name="c_radio_06" value="c"><label class="form-label form-check-label" for="c_radio_06"><span style="color: rgb(0, 0, 0);">More budget would be available for independent research providers</span></label></div>
+                            <div class="form-check mb-2"><input type="radio" id="d_radio_06" class="form-check-input" name="d_radio_06" value="d"><label class="form-label form-check-label" for="d_radio_06"><span style="color: rgb(0, 0, 0);">More budget would be available to niche brokers&nbsp;</span></label></div>
+                            <div class="form-check mb-2"><input type="radio" id="e_radio_06" class="form-check-input" name="e_radio_06" value="e"><label class="form-label form-check-label" for="e_radio_06" s=""><span style="color: rgb(0, 0, 0);">More budget would be available to the bulge bracket firms&nbsp;</span></label></div>
+                            <div class="form-check mb-2"><input type="radio" id="f_radio_06" class="form-check-input" name="f_radio_06" value="f"><label class="form-label form-check-label" for="f_radio_06" s=""><span style="color: rgb(0, 0, 0);">No change</span></label></div>
+                            <div class="form-check mb-2"><input type="radio" id="other_radio_06" class="form-check-input" name="other_radio_06" value="other"><label class="form-label form-check-label" for="other_radio_06"><span style="color: rgb(0, 0, 0);">Other (please specify) :</span></label></div>
+                            <div class="form-outline mb-4"><textarea class="form-control form-control othertext" id="other_text_06" rows="4" name="other_text_06"></textarea></div>
+                            <div class="nextdiv"><button class="btn btn-primary nextbtn" id="q_06_next" type="button" onclick="next(this)" value="q_06">Next</button></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="mx-sm-auto mx-0 question" id="q_07">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="text-center"><img class="be_logo" src="../assets/img/BestEx_Favicon.jpg">
+                            <p class="section-title"><strong>In the final FCA/EU Listing Act rules what would you most like to see?&nbsp;</strong></p>
+                            <p></p>
+                        </div>
+                        <hr>
+                        <form id="form_07" class="px-4" action="">
+                            <div class="form-check mb-2"><input type="checkbox" id="a_radio_07" class="form-check-input" name="a_radio_07" value="a"><label class="form-label form-check-label" for="a_radio_07" value="a"><span style="color: rgb(0, 0, 0);">Clear and definitive guidance on how much disclosure on research payments to clients would be&nbsp;required</span></label></div>
+                            <div class="form-check mb-2"><input type="checkbox" id="b_radio_07" class="form-check-input" name="b_radio_07" value="b"><label class="form-label form-check-label" for="b_radio_07"><span style="color: rgb(0, 0, 0);">Freedom to pay for corporate access with commissions</span></label></div>
+                            <div class="form-check mb-2"><input type="checkbox" id="c_radio_07" class="form-check-input" name="c_radio_07" value="c"><label class="form-label form-check-label" for="c_radio_07"><span style="color: rgb(0, 0, 0);">Clear stipulation that the sell side cannot force bundled payments</span></label></div>
+                            <div class="form-check mb-2"><input type="checkbox" id="d_radio_07" class="form-check-input" name="d_radio_07" value="d"><label class="form-label form-check-label" for="d_radio_07" s=""><span style="color: rgb(0, 0, 0);">Flexibility to pay for research in whichever way is appropriate&nbsp;</span></label></div>
+                            <div class="form-check mb-2"><input type="checkbox" id="e_radio_07" class="form-check-input" name="e_radio_07" value="e"><label class="form-label form-check-label" for="e_radio_08" s=""><span style="color: rgb(0, 0, 0);">Freedom to set up traditional CSA&nbsp;programmes&nbsp;in the name of the broker, rather than using RPA structures which would be in the asset manager’s name&nbsp;</span></label></div>
+                            <div class="form-check mb-2"><input type="checkbox" id="other_radio_07" class="form-check-input" name="other_radio_07" value="other"><label class="form-label form-check-label" for="other_radio_08"><span style="color: rgb(0, 0, 0);">Other (please specify) :</span></label></div>
+                            <div class="form-outline mb-4"><textarea class="form-control form-control othertext" id="other_text_07" rows="4" name="other_text_07"></textarea></div>
+                            <div class="nextdiv"><button class="btn btn-primary nextbtn" id="q_07_next" type="button" onclick="next(this)" value="q_07">Next</button></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="mx-sm-auto mx-0 question" id="q_08">
+                <div class="card">
+                    <div class="modal-body">
+                        <div class="text-center"><img class="be_logo" src="../assets/img/BestEx_Favicon.jpg">
+                            <p class="text-center"><strong>Any further comments/feedback?</strong></p>
+                        </div>
+                        <hr>
+                        <form id="form_08" class="px-4" action="">
+                            <div class="form-outline mb-4"><textarea class="form-control form-control" id="form4Example3" rows="4"></textarea><label class="form-label form-label" for="form4Example3"></label>
+                                <div class="nextdiv"><button class="btn btn-primary nextbtn" type="button" onclick="submitForms()">Submit</button></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <form id="form_main" method="post" action="./../save.php?o"><input class="form-control form_id" type="text" id="form_main_about" value="" name="form_main_about"><input class="form-control form_id" type="text" id="form_main_answers" value="" name="form_main_answers"><input class="form-control form_id" type="text"
+            id="form_main_feedback" value="" name="form_main_feedback"></form>
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../assets/js/questions.js"></script>
+    <script src="../assets/js/next.js"></script>
+    <script src="../assets/js/results.js"></script>
+</body>
+
+</html>

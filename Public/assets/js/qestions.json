@@ -1,0 +1,503 @@
+{
+    "Buyside": {
+        "q_01": {
+            "max_answers_allowed ": 1,
+            "text": "Do you currently plan on returning research costs to clients once the FCA and the EU implement their research rebundling recommendations?",
+            "answers": {
+                "a": {
+                    "text": "Yes",
+                    "next": "q_04",
+                    "last": null
+                },
+                "b": {
+                    "text": "No",
+                    "next": "q_02",
+                    "last": null
+                }
+            }
+        },
+        "q_02": {
+            "max_answers_allowed ": 1,
+            "next": "q_03",
+            "last": "q_01",
+            "text": "You answered no. What is the main reason why?",
+            "answers": {
+                "a": {
+                    "text": "Need to see regulatory alignment across the UK and the EU first which is not a given"
+                },
+                "b": {
+                    "text": "There is no appetite to approach clients to reintroduce these costs"
+                },
+                "c": {
+                    "text": "We are comfortable with our existing research valuation and funding structure "
+                },
+                "d": {
+                    "text": "It will depend on the detail of the FCA’s detailed rules and the implications on operational complexity and cost"
+                },
+                "other": {
+                    "text": "Other (please specify)"
+                }
+            }
+        },
+        "q_03": {
+            "max_answers_allowed ": 1,
+            "next": "q_05",
+            "last": "q_02",
+            "text": "What is the most significant factor that would make it possible to implement?",
+            "answers": {
+                "a": {
+                    "text": "A prolonged bull market"
+                },
+                "b": {
+                    "text": "a narrative in the media and other channels that underlines how research costs are small compared to their positive effect on performance"
+                },
+                "c": {
+                    "text": "A large global asset manager doing it first, making it easier to follow suit"
+                },
+                "d": {
+                    "text": "Clear, specific guidelines from the FCA/EU Listing Act covering disclosure that are not open to interpretation"
+                },
+                "other": {
+                    "text": "Other (please specify)"
+                }
+            }
+        },
+        "q_04": {
+            "max_answers_allowed ": 1,
+            "next": "q_05",
+            "last": "q_02",
+            "text": "You answered yes. What is the main reason you think it is achievable?",
+            "answers": {
+                "a": {
+                    "text": "End investors will understand that research costs are low in comparison to the impact more optionality on research payments will have on performance"
+                },
+                "b": {
+                    "text": "A large asset manager will eventually go first and remove any stigma for others"
+                },
+                "c": {
+                    "text": "End investors are not focused on research costs"
+                },
+                "d": {
+                    "text": "End investors are more focused on transparency, so if the correct disclosures exist they will accept the return of these charges"
+                },
+                "other": {
+                    "text": "Other (please specify)"
+                }
+            }
+        },
+        "q_05": {
+            "max_answers_allowed ": 1,
+            "next": "q_06",
+            "last": "q_04",
+            "text": "In a scenario where you did return research costs to end investor clients, what would be the likely effect to your budgeting?",
+            "answers": {
+                "a": {
+                    "text": "Our research budget would go up 20%+"
+                },
+                "b": {
+                    "text": "Our research budget would go up 10%+"
+                },
+                "c": {
+                    "text": "Our research budget would stabilise whereas it may have decreased otherwise"
+                },
+                "d": {
+                    "text": "No likely change"
+                },
+                "other": {
+                    "text": "Other (please specify)"
+                }
+            }
+        },
+        "q_06": {
+            "max_answers_allowed ": 1,
+            "next": "q_07",
+            "last": "q_06",
+            "text": "In a scenario where you did return research costs to end investor clients, what do you think would be the effect on research supply?",
+            "answers": {
+                "a": {
+                    "text": "Research on SMEs would increase "
+                },
+                "b": {
+                    "text": "High quality, differentiated research would increase"
+                },
+                "c": {
+                    "text": "More budget would be available for independent research providers"
+                },
+                "d": {
+                    "text": "More budget would be available to niche brokers"
+                },
+                "e": {
+                    "text": "More budget would be available to the bulge bracket firms"
+                },
+                "f": {
+                    "text": "No change"
+                },
+                "other": {
+                    "text": "Other (please specify)"
+                }
+            }
+        },
+        "q_07": {
+            "max_answers_allowed ": -1,
+            "next": "q_08",
+            "last": "q_07",
+            "text": "In the final FCA/EU Listing Act rules what would you most like to see?",
+            "answers": {
+                "a": {
+                    "text": "Clear and definitive guidance on how much disclosure on research payments to clients would be required"
+                },
+                "b": {
+                    "text": "Freedom to pay for corporate access with commissions"
+                },
+                "c": {
+                    "text": "Clear stipulation that the sell side cannot force bundled payments"
+                },
+                "d": {
+                    "text": "Flexibility to pay for research in whichever way is appropriate"
+                },
+                "e": {
+                    "text": "freedom to set up traditional CSA programmes in the name of the broker, rather than using RPA structures which would be in the asset manager’s name"
+                },
+                "f": {
+                    "text": "no change"
+                },
+                "other": {
+                    "text": "other (please specify)"
+                }
+            }
+        }
+    },
+    "Sellside": {
+        "q_01": {
+            "max_answers_allowed ": 1,
+            "text": "Do you think that the UK and EU-based buy side will return research costs to clients once the FCA and the EU implement their research recommendations?",
+            "answers": {
+                "a": {
+                    "text": "Yes",
+                    "next": "q_04",
+                    "last": null
+                },
+                "b": {
+                    "text": "No",
+                    "next": "q_02",
+                    "last": null
+                }
+            }
+        },
+        "q_02": {
+            "max_answers_allowed ": 1,
+            "next": "q_03",
+            "last": "q_01",
+            "text": "You answered no. What is the main reason why?",
+            "answers": {
+                "a": {
+                    "text": "They need to see regulatory alignment across the UK and the EU first"
+                },
+                "b": {
+                    "text": "They have no appetite to approach clients to reintroduce these costs"
+                },
+                "c": {
+                    "text": "They are comfortable with our existing research valuation and funding structure"
+                },
+                "d": {
+                    "text": "it will depend on the detail of the FCA’s detailed rules and the implications on operational complexity and cost"
+                },
+                "other": {
+                    "text": "other (please specify)"
+                }
+            }
+        },
+        "q_03": {
+            "max_answers_allowed ": 1,
+            "next": "q_05",
+            "last": "q_02",
+            "text": "What is the most significant factor that would make it possible to implement?",
+            "answers": {
+                "a": {
+                    "text": "A prolonged bull market"
+                },
+                "b": {
+                    "text": "A narrative in the media and other channels that underlines how research costs are small compared to their positive effect on performance"
+                },
+                "c": {
+                    "text": "A large global asset manager doing it first, making it easier to follow suit"
+                },
+                "d": {
+                    "text": "Clear, specific guidelines from the FCA/EU Listing Act covering disclosure that are not open to interpretation"
+                },
+                "other": {
+                    "text": "Other (please specify)"
+                }
+            }
+        },
+        "q_04": {
+            "max_answers_allowed ": 1,
+            "next": "q_05",
+            "last": "q_02",
+            "text": "You answered yes. What is the main reason you think it is achievable?",
+            "answers": {
+                "a": {
+                    "text": "End investors will understand that research costs are low in comparison to the impact more optionality on research payments will have on performance"
+                },
+                "b": {
+                    "text": "A large asset manager will eventually go first and remove any stigma for others"
+                },
+                "c": {
+                    "text": "End investors are not focused on research costs"
+                },
+                "d": {
+                    "text": "End investors are more focused on transparency, so if the correct disclosures exist they will accept the return of these charges"
+                },
+                "other": {
+                    "text": "Other (please specify)"
+                }
+            }
+        },
+        "q_05": {
+            "max_answers_allowed ": 1,
+            "next": "q_06",
+            "last": "q_04",
+            "text": "In a scenario where you did return research costs to end investor clients, what would be the likely effect to budgeting?",
+            "answers": {
+                "a": {
+                    "text": "Our research budget would go up 20%+"
+                },
+                "b": {
+                    "text": "Our research budget would go up 10%+"
+                },
+                "c": {
+                    "text": "Our research budget would stabilise whereas it may have decreased otherwise"
+                },
+                "d": {
+                    "text": "No likely change"
+                },
+                "other": {
+                    "text": "Other (please specify)"
+                }
+            }
+        },
+        "q_06": {
+            "max_answers_allowed ": 1,
+            "next": "q_07",
+            "last": "q_05",
+            "text": "In a scenario where asset managers did return research costs to end investor clients, what do you think would be the effect on research supply?",
+            "answers": {
+                "a": {
+                    "text": "Clear and definitive guidance on how much disclosure on research payments to clients would be required"
+                },
+                "b": {
+                    "text": "Freedom to pay for corporate access with commissions"
+                },
+                "c": {
+                    "text": "Clear stipulation that the sell side cannot force bundled payments"
+                },
+                "d": {
+                    "text": "Flexibility to pay for research in whichever way is appropriate"
+                },
+                "e": {
+                    "text": "Freedom to set up traditional CSA programmes in the name of the broker, rather than using RPA structures which would be in the asset manager’s name"
+                },
+                "f": {
+                    "text": "No change"
+                },
+                "other": {
+                    "text": "Other (please specify)"
+                }
+            }
+        },
+        "q_07": {
+            "max_answers_allowed ": -1,
+            "next": "q_08",
+            "last": "q_06",
+            "text": "In the final FCA/EU Listing Act rules what would you most like to see?",
+            "answers": {
+                "a": {
+                    "text": "Research on SMEs would increase"
+                },
+                "b": {
+                    "text": "High quality, differentiated research would increase "
+                },
+                "c": {
+                    "text": "More budget would be available for independent research providers"
+                },
+                "d": {
+                    "text": "More budget would be available to niche brokers"
+                },
+                "e": {
+                    "text": "More budget would be available to the bulge bracket firms"
+                },
+                "other": {
+                    "text": "Other (please specify)"
+                }
+            }
+        }
+    },
+    "Otherside": {
+        "q_01": {
+            "max_answers_allowed ": 1,
+            "text": "Do you think that the UK and EU-based buy side will return research costs to clients once the FCA and the EU implement their research recommendations?",
+            "answers": {
+                "a": {
+                    "text": "Yes",
+                    "next": "q_04",
+                    "last": null
+                },
+                "b": {
+                    "text": "No",
+                    "next": "q_02",
+                    "last": null
+                }
+            }
+        },
+        "q_02": {
+            "max_answers_allowed ": 1,
+            "next": "q_03",
+            "last": "q_01",
+            "text": "You answered no. What is the main reason why?",
+            "answers": {
+                "a": {
+                    "text": "They need to see regulatory alignment across the UK and the EU first"
+                },
+                "b": {
+                    "text": "They have no appetite to approach clients to reintroduce these costs"
+                },
+                "c": {
+                    "text": "They are comfortable with our existing research valuation and funding structure"
+                },
+                "d": {
+                    "text": "It will depend on the detail of the FCA’s detailed rules and the implications on operational complexity and cost"
+                },
+                "other": {
+                    "text": "Other (please specify)"
+                }
+            }
+        },
+        "q_03": {
+            "max_answers_allowed ": 1,
+            "next": "q_05",
+            "last": "q_02",
+            "text": "What is the most significant factor that would make it possible to implement?",
+            "answers": {
+                "a": {
+                    "text": "A prolonged bull market"
+                },
+                "b": {
+                    "text": "A narrative in the media and other channels that underlines how research costs are small compared to their positive effect on performance"
+                },
+                "c": {
+                    "text": "A large global asset manager doing it first, making it easier to follow suit"
+                },
+                "d": {
+                    "text": "Clear, specific guidelines from the FCA/EU Listing Act covering disclosure that are not open to interpretation"
+                },
+                "other": {
+                    "text": "Other (please specify)"
+                }
+            }
+        },
+        "q_04": {
+            "max_answers_allowed ": 1,
+            "next": "q_05",
+            "last": "q_02",
+            "text": "You answered yes. What is the main reason you think it is achievable?",
+            "answers": {
+                "a": {
+                    "text": "End investors will understand that research costs are low in comparison to the impact more optionality on research payments will have on performance"
+                },
+                "b": {
+                    "text": "A large asset manager will eventually go first and remove any stigma for others"
+                },
+                "c": {
+                    "text": "End investors are not focused on research costs"
+                },
+                "d": {
+                    "text": "End investors are more focused on transparency, so if the correct disclosures exist they will accept the return of these charges"
+                },
+                "other": {
+                    "text": "Other (please specify)"
+                }
+            }
+        },
+        "q_05": {
+            "max_answers_allowed ": 1,
+            "next": "q_06",
+            "last": "q_04",
+            "text": "In a scenario where the buy side did return research costs to end investor clients, what would be the likely effect to providers’ research revenues?",
+            "answers": {
+                "a": {
+                    "text": "Up 20%+"
+                },
+                "b": {
+                    "text": "Up 10%+"
+                },
+                "c": {
+                    "text": "Stabilise whereas it may have decreased otherwise"
+                },
+                "d": {
+                    "text": "No likely change"
+                },
+                "other": {
+                    "text": "Other (please specify)"
+                }
+            }
+        },
+        "q_06": {
+            "max_answers_allowed ": 1,
+            "next": "q_07",
+            "last": "q_05",
+            "text": "In a scenario where the buy side did return research costs to end investor clients, what do you think would be the effect on research supply?",
+            "answers": {
+                "a": {
+                    "text": "Clear and definitive guidance on how much disclosure on research payments to clients would be required"
+                },
+                "b": {
+                    "text": "Freedom to pay for corporate access with commissions"
+                },
+                "c": {
+                    "text": "Clear stipulation that the sell side cannot force bundled payments"
+                },
+                "d": {
+                    "text": "Flexibility to pay for research in whichever way is appropriate"
+                },
+                "e": {
+                    "text": "Freedom to set up traditional CSA programmes in the name of the broker, rather than using RPA structures which would be in the asset manager’s name"
+                },
+                "f": {
+                    "text": "No change"
+                },
+                "other": {
+                    "text": "Other (please specify)"
+                }
+            }
+        },
+        "q_07": {
+            "max_answers_allowed ": -1,
+            "next": "q_08",
+            "last": "q_06",
+            "text": "In the final FCA/EU Listing Act rules what would you most like to see?",
+            "answers": {
+                "a": {
+                    "text": "Clear and definitive guidance on how much disclosure on research payments to clients would be required"
+                },
+                "b": {
+                    "text": "Freedom to pay for corporate access with commissions"
+                },
+                "c": {
+                    "text": "Clear stipulation that the sell side cannot force bundled payments"
+                },
+                "d": {
+                    "text": "Flexibility to pay for research in whichever way is appropriate"
+                },
+                "e": {
+                    "text": "Freedom to set up traditional CSA programmes in the name of the broker, rather than using RPA structures which would be in the asset manager’s name"
+                },
+                "f": {
+                    "text": "No change"
+                },
+                "other": {
+                    "text": "Other (please specify)"
+                }
+            }
+        }
+    }
+}
