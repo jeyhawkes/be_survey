@@ -2,5 +2,7 @@
 Folder structure:
 1) On the hosting box, make a folder for this survey e.g. research-rebundling (this will be appended to the host address)
 2) Move everything from the "Public" folder into your new folder - These files are public facing
-3) If there is a "private" folder already setup SKIP THIS step, Otherwise create a folder called private and make sure it has no "public" permissions
-4) Move everything from the "Private" folder and put it in the new "private"folder - these are private files with customer information and configuration 
+3) IMPORTANT!! If there is a "private" folder already setup SKIP THIS step, Otherwise create a folder called private and make sure it has no "public" permissions
+4) IMPORTANT!! Move everything from the "Private" folder and put it in the new "private" folder - these are private files with customer information and configuration
+
+
