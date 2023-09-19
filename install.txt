@@ -1,1 +1,4 @@
 
+Folder structure:
+On the hosting box make a folder for this research project e.g. research-rebundling
+
