@@ -228,6 +228,8 @@ function GoToSuccess() { window.location.replace('.\/..\/Success.html'); }
 function formAbout() {
     let data = {}
 
+    data["side"] = getSide()
+
     var xchildren = document.getElementById("form_about").getElementsByClassName("form-control");
     for (i = 0; i < xchildren.length; i++) {
         q = xchildren[i].name
@@ -294,11 +296,4 @@ function submitForms() {
     document.getElementById("form_main_answers").value = answers
     document.getElementById("form_main_feedback").value = feedback
     document.getElementById("form_main").submit()
-}
-
-success = document.getElementById("success_submit")
-if (success) {
-    success.onclick = function() {
-        window.location.replace("./FurtherReading.html");
-    }
 }

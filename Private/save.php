@@ -26,18 +26,19 @@ function GoSuccessPage() {
         }
 
         $keys = [
+            "side",
             "name",
-            "email",
             "firm-name",
             "firm-hq",
-            "firm-size",
+            "firm-aum-band",
+            "firm-employee-size",
             "firm-regions",
-            "firm-headquarters-location",
+            "firm-staragy",
             "firm-research-budget",
             "q_01",
             "q_02",
-            "q_03","
-            q_04",
+            "q_03",
+            "q_04",
             "q_05",
             "q_06",
             "q_07",
@@ -83,7 +84,9 @@ function GoSuccessPage() {
 
     $valid = true;
     if ($valid) {
-        createCSV("buyside.csv");
+        $filepath = __DIR__ . "/data.csv";
+        createCSV($filepath);
+        jsonToCSV($arr, $filepath);
         GoSuccessPage();
     }
 

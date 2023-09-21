@@ -21,10 +21,12 @@
                             <h6><strong><em><span style="color: rgb(0, 0, 0);">Thank you for completing this survey. If you would like to receive a copy of the report, please enter your email address here. Your details will be kept anonymous and will not be used for any other purpose.</span></em></strong></h6>
                         </div>
                         <hr>
-                        <form id="form_01" class="px-4" action="" method="post" name="01">
-                            <div class="mb-3"><label class="form-label" for="firm-headquarters-location">Email (optional):</label><input class="form-control" type="email" id="your-email" name="your-email" onfocus="this.select()" optional="true"></div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1">Hungry for more? If you would like to sign up for the Best Execution newsletter to receive all the latest industry news and insights direct to your inbox, please tick here.</label></div>
-                            <div class="nextdiv"><button class="btn btn-primary nextbtn" id="success_submit" type="button">Submit</button></div>
+                        <form id="form_01" class="px-4" method="post" name="01" action="./opt.php">
+                            <div class="mb-3"><label class="form-label" for="your-email">Email (optional):</label><input class="form-control" type="email" id="your-email" name="your-email" onfocus="this.select()" optional="true"></div>
+                            <div class="form-check"><input class="form-check-input" type="checkbox" id="opt-in" name="opt-in"><label class="form-check-label" for="opt-in">Hungry for more? If you would like to sign up for the Best Execution newsletter to receive all the latest industry news and insights direct to your inbox, please tick here.</label></div>
+                            <div class="nextdiv">
+                                <button class="btn btn-primary nextbtn" id="success_submit" type="submit">Submit</button>
+                            </div>
                         </form>
                     </div>
                 </div>
@@ -34,7 +36,6 @@
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/questions.js"></script>
     <script src="assets/js/next.js"></script>
-    <script src="assets/js/results.js"></script>
 </body>
 
 </html>
