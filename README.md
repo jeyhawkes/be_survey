@@ -5,7 +5,9 @@ best execution survey
 index.html (main page) - choose "buy side","sell side" or "other" 
 
 buyside/index.html - buy side questions
+
 sellside/index.html - sell side questions
+
 other/*index.html - other questions
 
 
