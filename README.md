@@ -23,5 +23,12 @@ assets/js/questions.json - stores all the data for the questions (currently only
 
 **Future Improvements** 
 
+Pages
+- update error handling (highlighting errors in form)
+
+Create
+- UI for creating future surveys (Create seprate questions.json)
+- Create .html pages from "questions.json" 
+
 Data management
 - Use database instead of CSV (then export as CSV)
