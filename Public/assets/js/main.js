@@ -34,12 +34,11 @@ function showDropdownChoice() {
     }
 }
 
-function getRadio(children) {
+function getRadio(children, othertext) {
     for (var child in children) {
 
         if (children[child].checked) {
             if (children[child].value == "other") {
-                othertext = form.getElementsByTagName("textarea")[0];
                 if (othertext.value) {
                     return ["other"]
                 }
@@ -53,13 +52,12 @@ function getRadio(children) {
     return null
 }
 
-function getCheck(children) {
+function getCheck(children, othertext) {
     let arr = []
     for (var child in children) {
 
         if (children[child].checked) {
             if (children[child].value == "other") {
-                othertext = form.getElementsByTagName("textarea")[0];
                 if (othertext.value) {
                     arr.push("other")
                     continue
@@ -75,13 +73,14 @@ function getCheck(children) {
 }
 
 function getValue(form) {
-    var children = form.getElementsByClassName("form-check-input");
+    let children = form.getElementsByClassName("form-check-input");
+    let othertext = form.getElementsByTagName("textarea")[0];
 
     switch (children[0].type) {
         case "radio":
-            return getRadio(children)
+            return getRadio(children, othertext)
         case "checkbox":
-            return getCheck(children)
+            return getCheck(children, othertext)
     }
 
     return null
