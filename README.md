@@ -20,8 +20,12 @@
 * assets/js/questions.js : used to manage questions
 * assets/js/utils.js : basic page utilites 
 
-**Data**
+**Question data**
 * assets/js/questions.json : stores all the data for the questions (currently only used for mapping between questions"
+
+**Recorded data**
+* private/data.csv : question data
+* private/opt.txt : list of email addresses that have opt in 
 
 # Future Improvements
 
