@@ -22,3 +22,6 @@ assets/js/utils.js - basic page utilites
 assets/js/questions.json - stores all the data for the questions (currently only used for mapping between questions"
 
 **Future Improvements** 
+
+Data management
+- Use database instead of CSV (then export as CSV)
