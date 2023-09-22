@@ -23,7 +23,7 @@
 **Question data**
 * assets/js/questions.json : stores all the data for the questions (currently only used for mapping between questions"
 
-**Recorded data**
+**Recorded data (Keep secure)** 
 * private/data.csv : question data
 * private/opt.txt : list of email addresses that have opt in 
 
@@ -34,6 +34,7 @@
 
 **Pages**
 * Update error handling (highlighting errors in form)
+* Admin pages for getting data
 
 **Create**
 * UI for creating future surveys (Create seprate questions.json)
