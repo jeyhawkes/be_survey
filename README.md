@@ -1,4 +1,4 @@
-h1 Structure
+# Structure
 
 **Webpages (HTML)** 
 * index.html (main page) - choose "buy side","sell side" or "other" 
@@ -23,7 +23,7 @@ h1 Structure
 **Data**
 * assets/js/questions.json : stores all the data for the questions (currently only used for mapping between questions"
 
-h1 Future Improvements
+# Future Improvements
 
 **Data management**
 * Use database instead of CSV (then export as CSV)
