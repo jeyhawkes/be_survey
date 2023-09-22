@@ -13,7 +13,7 @@
 
 function GoSuccessPage() {
 
-    $url = "./Success.html";
+    $url = "./complete.html";
     $url = json_encode($url);
     echo '<script type="text/javascript"> redirectPost(' . $url . '); </script>';
 

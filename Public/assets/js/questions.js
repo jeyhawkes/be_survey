@@ -1,3 +1,6 @@
+var questions_path = './../assets/js/qestions.json'
+
+
 var Questions = []
 
 function Answer(id, text, next, last) {
@@ -38,5 +41,4 @@ function convert(jsonData, jsonKey) {
         }
         Questions[question] = new Question(question, q_text, answers)
     }
-    console.log(Questions)
 }
