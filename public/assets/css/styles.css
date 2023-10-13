@@ -1,95 +1,88 @@
 .question {
-  display: none;
+    display: none;
 }
 
 .active {
-  display: block;
+    display: block;
 }
 
 .question_submit {
-  display: none;
+    display: none;
 }
 
 .form_id {
-  display: none;
+    display: none;
 }
 
 img {
-  max-width: 100%;
+    max-width: 100%;
 }
 
-.form-control {
-}
+.form-control {}
 
 .be_logo {
-  max-width: 100%;
-  width: 100px;
-  height: 100px;
-  padding: 0px;
-  margin: 15px;
+    max-width: 100%;
+    width: 100px;
+    height: 100px;
+    padding: 0px;
+    margin: 15px;
 }
 
 .form-control {
-  border-color: black;
+    border-color: black;
 }
 
 .form-check-input {
-  border-color: #000000;
+    border-color: #000000;
 }
 
-.nextbtn {
-}
+.nextbtn {}
 
 .nextdiv {
-  text-align: center;
+    text-align: center;
 }
 
-.nextbtn {
-}
+.nextbtn {}
 
 .nextbtn {
-  width: 100px;
+    width: 100px;
 }
 
 .frlink {
-  padding-top: 10px;
+    padding-top: 10px;
 }
 
 .title_col {
-  padding: 15px;
+    padding: 15px;
 }
 
-.question_text {
-}
+.question_text {}
 
 .question_answer {
-  text-align: right!important;
+    text-align: right!important;
 }
 
 .q_row {
-  text-align: center!important;
-  display: none;
+    text-align: center!important;
+    display: none;
 }
 
-.answer_cell {
-}
+.answer_cell {}
 
 .answer_cell {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 td {
-  width: 50%;
+    width: 50%;
 }
 
-div {
-}
+div {}
 
 .active-table-row {
-  display: table-row;
+    display: table-row;
 }
 
 .section-title {
-  font-weight: 400;
+    font-weight: 400;
 }
-

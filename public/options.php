@@ -25,12 +25,19 @@
         else if (isset($_POST["c_radio_01"])) {
             $url = "./other/";
         }
+        else {
+            echo '<script type="text/javascript"> redirectPost(' . json_encode("./index.html") . '); </script>';
+            return;
+        }
 
 
         if ($url != "") {
             $url = json_encode($url);
             echo '<script type="text/javascript"> redirectPost(' . $url . '); </script>';
         }
+    }
+    else {
+        '<script type="text/javascript"> redirectPost(' . "./index.html" . '); </script>';
     }
 
 

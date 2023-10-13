@@ -39,10 +39,13 @@ function GoSuccessPage() {
     }
 
 
-    if (isset($_POST) && isset($_POST["opt-in"])) {
-        $filepath = __DIR__ . "/opt.txt";
-        createTxt($filepath);
-        appendTxt($_POST["your-email"], $filepath);
+    if (isset($_POST)) {
+
+        if (isset($_POST["opt-in"])) {
+            $filepath = __DIR__ . "/opt.txt";
+            createTxt($filepath);
+            appendTxt($_POST["your-email"], $filepath);
+        }
         GoSuccessPage();
     }
 
